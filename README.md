@@ -11,4 +11,5 @@
 
 ## 課程筆記區
 ## 作業連結區
+[HW1](https://github.com/knyliu/LATIA112-1/blob/main/LATIA_HW1/LATIA_HW1.ipynb)
 ## 專題連結區
