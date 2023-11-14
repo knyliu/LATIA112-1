@@ -10,7 +10,7 @@ This is a project for learning about Large Language Models (LLMs). Based on the 
 
 ## Selenium
 
-This is a project for learning Python. I use Selenium, Beautiful Soup, and regular expressions to complete the project. Based on the data we gather from websites using a Web Crawler, people can easily learn about Large Language Models (LLMs). The data we obtained from the w3schools website consist of open-source teaching materials for Python. People can easily learn Python based on these organized files.
+This is a project for learning Python. I use Selenium, Beautiful Soup, and regular expressions to complete the project. Based on the data we gather from websites using a Web Crawler, people can easily learn Python. The data we obtained from the w3schools website consist of open-source teaching materials for Python. People can easily learn Python based on these organized files.
 
 ## Scrapy
-This is a project for learning Python. I use Scrapy and regular expressions to complete the project. Based on the data we gather from websites using a Web Crawler, people can easily learn about Large Language Models (LLMs). The data we obtained from the w3schools website consists of open-source teaching materials for Python. People can easily learn Python using these organized files.
+This is a project for learning Python. I use Scrapy and regular expressions to complete the project. Based on the data we gather from websites using a Web Crawler, people can easily learn Python. The data we obtained from the w3schools website consists of open-source teaching materials for Python. People can easily learn Python using these organized files.
