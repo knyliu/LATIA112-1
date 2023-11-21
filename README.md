@@ -11,7 +11,9 @@
 
 ## 課程筆記區
 ## 作業連結區
-[HW1](https://github.com/knyliu/LATIA112-1/blob/main/LATIA_HW1/LATIA_HW1.ipynb)
+[HW1 - Data Visualization](https://github.com/knyliu/LATIA112-1/blob/main/LATIA_HW1/LATIA_HW1.ipynb)
 
-[HW2](https://github.com/knyliu/LATIA112-1/blob/main/LATIA_HW2)
+[HW2 - Web Crawler - BeautifulSoup, Selenium, Scrapy](https://github.com/knyliu/LATIA112-1/blob/main/LATIA_HW2)
+
+[HW3 - LINE BOT with Azure NLP](https://github.com/knyliu/LATIA112-1/blob/main/LATIA_HW3)
 ## 專題連結區
