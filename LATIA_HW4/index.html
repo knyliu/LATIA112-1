@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="flex-container">
+        <div class="text-container">
+            <h1>Plotly Data Visualization</h1>
+            <a href="https://github.com/knyliu/LATIA112-1/tree/main/LATIA_HW4" target="_blank">
+                <img src="github.png" class="logo" width="40" height="40">
+            </a>
+            <br>
+            <br>
+            <p>This website is based on Plotly for data visualization completion.</p>
+            <p>It is based on data analyzed from the 2022 and 2023 QS rankings and also incorporates Taiwanese educational data to compare the correlation between QS rankings and various factors.</p>
+            <br>
+            <p>The QS Ranking data is sourced from Kaggle. / The Taiwan Library data is obtained from the Taiwan Government.</p>
+        </div>
+
+        <br>
+        <hr style="border: 0.75px solid; color: rgb(183, 183, 183); width: 80%;"/>
+        <br>
+        <br>
+        <h2>NTU, NTNU, NTUST Breakdown via year: RESEARCH QUALITY</h2>
+        <div id="myGraph"></div>
+        <p>The purpose of this chart is to observe the annual improvements in Research Quality within the alliance of three Taiwanese universities, as well as to compare the differences in Research Quality among these three institutions.</p>
+        <br>
+        <hr style="border: 0.75px solid; color: rgb(183, 183, 183); width: 80%;"/>
+        <br>
+        <br>
+        <h2>Proportion of Top 100 Schools by Region in 2022</h2>
+        <div id="myGraph2"></div>
+        <p>The purpose of this chart is to see, among the top 100 universities in the QS rankings, the proportion each region occupies, with the universities categorized by region.</p>
+        <br>
+        <hr style="border: 0.75px solid; color: rgb(183, 183, 183); width: 80%;"/>
+        <br>
+        <br>
+        <h2>In 2022, What Percentage of Universities in Each Region Made it to the Top 100?</h2>
+        <div id="myGraph3"></div>
+        <p>Following the previous chart, the purpose of this chart is to observe the proportion of universities from each region that are able to rank within the top 100.</p>
+        <br>
+        <hr style="border: 0.75px solid; color: rgb(183, 183, 183); width: 80%;"/>
+        <br>
+        <br>
+        <h2>Number of Universities in Taiwan Participating in QS Rankings within Each 200 Rank Interval</h2>
+        <div id="myGraph4"></div>
+        <p>The purpose of this chart is to observe the distribution of all Taiwanese universities (limited to those participating in the QS rankings) in the QS rankings.</p>
+        <br>
+        <hr style="border: 0.75px solid; color: rgb(183, 183, 183); width: 80%;"/>
+        <br>
+        <br>
+        <h2>Relationship between Rankings and Funding for Universities in Taiwan in QS Rankings</h2>
+        <div id="myGraph5"></div>
+        <p>The purpose of the charts following this one is to observe the correlation between various Taiwanese data and QS rankings. </p>
+        <p> It is important to note that this does not imply a causal relationship, but rather aims to illustrate the correlation. Specifically, this chart is designed to show the correlation between government funding for a university and its ranking.</p>
+        <br>
+        <hr style="border: 0.75px solid; color: rgb(183, 183, 183); width: 80%;"/>
+        <br>
+        <br>
+        <h2>Relationship between Rankings and Total Library Holdings for Universities in Taiwan in QS Rankings</h2>
+        <div id="myGraph6"></div>
+        <p>The purpose of this chart is to observe the correlation between the number of books in a university's library and its QS ranking.</p>
+        <br>
+        <hr style="border: 0.75px solid; color: rgb(183, 183, 183); width: 80%;"/>
+        <br>
+        <br>
+        <h2>Relationship between Rankings and Library Seating Capacity for Universities in Taiwan in QS Rankings</h2>
+        <div id="myGraph7"></div>
+        <p>The purpose of this chart is to explore the correlation between the number of seats in a university's library and its QS ranking.</p>
+        <br>
+        <hr style="border: 0.75px solid; color: rgb(183, 183, 183); width: 80%;"/>
+        <br>
+        <br>
+        <h2>Relationship between Rankings and Annual Library Circulation for Universities in Taiwan in QS Rankings</h2>
+        <div id="myGraph8"></div>
+        <p>The purpose of this chart is to examine the correlation between the volume of book loans at a university's library and its QS ranking.</p>
+        <br>
+        <hr style="border: 0.75px solid; color: rgb(183, 183, 183); width: 80%;"/>
+        <br>
+        <br>
+        <h2>Relationship between Rankings and Annual Library Circulation for Universities in Taiwan in QS Rankings (Considering Student Population)</h2>
+        <div id="myGraph9"></div>
+        <p>Building on the previous chart and considering the differing total student populations at each school, the purpose of this chart is to examine the correlation between the per capita book borrowing rate at a university and its QS ranking.</p>
+
+        <hr style="border: 0.75px solid; color: rgb(183, 183, 183); width: 80%;"/>
+        <br>
+        <br>
+
+        <a href="https://github.com/knyliu/LATIA112-1/blob/main/LATIA_HW1/LATIA_HW1.ipynb" target="_blank">The Process of Data Preprocessing</a>
+        <br>
+
+
+        <br><br><br><br><br>
+
+        <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+        <script src="data.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
