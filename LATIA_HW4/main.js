@@ -350,7 +350,7 @@ let layout9 = {
         t:60
     },
 
-    title: 'Relationship between Rankings and Annual Library Circulation for Universities in Taiwan in QS Rankings (Considering Student Population)'
+    title: 'Relationship between Rankings and Circulation / Population for Universities in Taiwan in QS Rankings'
 };
 
 Plotly.newPlot(myGraph, data, layout);
